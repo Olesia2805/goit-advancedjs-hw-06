@@ -1,8 +1,8 @@
-// /*
-//   Створіть тип "Gender", використовуючи union type, 
-//   який може містити значення "male", "female". Створіть змінну myGender цього типу.
-// */
+/*
+  Create a 'Gender' type using the union type, 
+  which can contain the values 'male', 'female'. Create a myGender variable of this type.
+*/
+type Gender = 'male' | 'female';
+const myGender: Gender = 'female';
 
-// const myGender;
-
-// export {};
+export {};
