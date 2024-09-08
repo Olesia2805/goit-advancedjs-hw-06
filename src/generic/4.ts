@@ -1,17 +1,20 @@
-// /*
-//   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
-// */
+/*
+  Use generics and interfaces to fix the error in the following classes:
+*/
 
-// class Component {
-//   constructor (public props:T) {
+interface propsIndo{
+    title: string,
+}
 
-//   }
-// }
+class Component <T> {
+    constructor (public props: T) {
+  }
+}
 
-// class Page extends Component {
-//   pageInfo () {
-//     console.log(this.props.title);
-//   }
-// }
+class Page extends Component <propsIndo>{
+  pageInfo () {
+    console.log(this.props.title);
+  }
+}
 
-// export {};
+export {};
