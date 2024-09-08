@@ -118,7 +118,7 @@ Create a new data type that is suitable for these two objects.
 
 The purpose of this assignment is to help you understand and apply generics in TypeScript. You'll work with functions that return an array, use the built-in Pick type, combine objects using generics, and solve type problems in classes.
 
-### Task 1
+### [Task 1](src/generic/1.ts)
 
 There is a getPromise() function that returns a promise that is allowed in an array containing strings and numbers. Complete this function using generics so that it returns the correct type.
 
@@ -134,7 +134,7 @@ getPromise().then((data) => {
 });
 ```
 
-### Task 2
+### [Task 2](src/generic/2.ts)
 
 You have a type AllType. There is a compare function that takes two objects. These objects contain fields of AllType. Your task is to use Pick and generics to indicate that the fields of these objects belong to AllType. The compare function must return AllType.
 
@@ -156,7 +156,7 @@ function compare(top, bottom): AllType {
 }
 ```
 
-### Task 3
+### [Task 3](src/generic/3.ts)
 
 You have a merge function that combines two objects. Use generics to specify that these objects can be of any type.
 
@@ -166,7 +166,7 @@ function merge(objA, objB) {
 }
 ```
 
-### Task 4
+### [Task 4](src/generic/4.ts)
 
 Use generics and interfaces to fix the error in the following classes:
 
@@ -182,7 +182,7 @@ class Page extends Component {
 }
 ```
 
-### Task 5
+### [Task 5](src/generic/5.ts)
 
 You need to implement the KeyValuePair interface that describes a key-value pair. Use generics so that this interface can work with any type of key and value.
 
@@ -193,7 +193,7 @@ interface KeyValuePair {
 }
 ```
 
-### Task 6
+### [Task 6](src/generic/6.ts)
 
 You have a user registration form. Sometimes you need to pre-populate the form with user information to update their profile. However, you don't always need to fill in all the fields. For example, a user may only want to update their email and password, leaving their first and last name unchanged.
 
@@ -214,7 +214,7 @@ function createOrUpdateUser(initialValues: User) {
 createOrUpdateUser({ email: "user@mail.com", password: "password123" });
 ```
 
-### Task 7
+### [Task 7](src/generic/7.ts)
 
 You have a UserRole list that is used to classify users in your application. You want to create a RoleDescription object that will map each user role to its description.
 
@@ -233,7 +233,7 @@ const RoleDescription = {
 };
 ```
 
-### Task 8
+### [Task 8](src/generic/8.ts)
 
 You have a Form type that contains information about a form, including the errors field. You want to create a new Params type that includes all the fields from the Form except for the errors field.
 
