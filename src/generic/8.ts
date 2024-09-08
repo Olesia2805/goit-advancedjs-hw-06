@@ -1,24 +1,24 @@
-// /*
-//   У вас є тип Form, який містить інформацію про форму, включаючи поле errors. 
-//   Ви хочете створити новий тип Params, який включає всі поля з Form, крім errors.
-// */
+/*
+  You have a Form type that contains information about a form, including the errors field. 
+  You want to create a new Params type that includes all the fields from the Form except the errors field.
+*/
 
-// type Errors = {
-//   email?: string[];
-//   firstName?: string[];
-//   lastName?: string[];
-//   phone?: string[];
-// };
+type Errors = {
+  email?: string[];
+  firstName?: string[];
+  lastName?: string[];
+  phone?: string[];
+};
 
-// type Form = {
-//   email: string | null;
-//   firstName: string | null;
-//   lastName: string | null;
-//   phone: string | null;
-//   errors: Errors;
-// };
+type Form = {
+  email: string | null;
+  firstName: string | null;
+  lastName: string | null;
+  phone: string | null;
+  errors: Errors;
+};
 
-// // Реалізуйте Params так, щоб унеможливити поле 'errors' з типу Form
-// type Params = Form;
+// Implement Params in a way that makes it impossible to use the 'errors' field of the Form type
+type Params = Omit<Form, 'error'>;
 
-// export {};
+export {};
