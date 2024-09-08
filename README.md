@@ -4,7 +4,7 @@ The purpose of this homework assignment is to strengthen your skills with the ba
 
 At the end of the homework assignment, you will also practice creating your own type based on existing objects. This will help you to better understand how TypeScript can be used to provide type safety for your data and improve the quality of your code.
 
-### Task 1
+### [Task 1](src/baseTypes/1.ts)
 
 You have the following JavaScript code:
 
@@ -21,7 +21,7 @@ let callback = (a) => {
 
 Convert this code to TypeScript, specifying the appropriate types for all variables.
 
-### Task 2
+### [Task 2](src/baseTypes/2.ts)
 
 A JavaScript variable can store a value of any type:
 
@@ -33,7 +33,7 @@ anything = {};
 
 What type do you assign to the anything variable in TypeScript to keep it flexible?
 
-### Task 3
+### [Task 3](src/baseTypes/3.ts)
 
 In TypeScript, the unknown type allows us to store any value, but we can assign an unknown variable directly to another variable if we are sure of its type. You have the following code:
 
@@ -46,7 +46,7 @@ str = some;
 
 What do you need to fix in this code to make it correct and safe?
 
-### Task 4
+### [Task 4](src/baseTypes/4.ts)
 
 You have the following JavaScript array:
 
@@ -56,11 +56,11 @@ let person = ["Max", 21];
 
 How can you rewrite it in TypeScript using the concept of tuples to ensure that the first element is always a string and the second is always a number?
 
-### Task 5
+### [Task 5](src/baseTypes/5.ts)
 
 How would you define a variable in TypeScript that can take a string or a number (union type)? And also define a variable that can take only one of two string values: 'enable' or 'disable' (literal type)?
 
-### Task 6
+### [Task 6](src/baseTypes/6.ts)
 
 You have the following JavaScript functions:
 
@@ -80,15 +80,15 @@ function customError() {
 
 How would you specify the types for the arguments and return values of these functions?
 
-### Task 7
+### [Task 7](src/baseTypes/7.ts)
 
 Create a function (isWeekend) that takes a day of the week (from your enum) and returns a boolean value indicating whether it is a weekday or a weekend.
 
-### Task 8
+### [Task 8](src/baseTypes/8.ts)
 
 Create a type 'Gender' using a union type that can contain the values 'male', 'female'. Create a myGender variable of this type.
 
-### Task 9
+### [Task 9](src/baseTypes/9.ts)
 
 You have two objects:
 
