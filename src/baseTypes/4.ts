@@ -3,6 +3,6 @@
   to ensure that the first element is always a string and the second is always a number?
 */
 
-let person: [string, number] = ['Max', 21];
+let person: [string, number] = ["Max", 21];
 
 export {};

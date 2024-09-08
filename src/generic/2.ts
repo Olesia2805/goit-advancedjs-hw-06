@@ -8,21 +8,21 @@ type AllType = {
   name: string;
   position: number;
   color: string;
-  weight: number
-}
+  weight: number;
+};
 
-type TypesType = Pick<AllType, 'name' | 'position' | 'color' | 'weight'>;
+type TypesType = Pick<AllType, "name" | "position" | "color" | "weight">;
 
-function compare (top: TypesType, bottom: TypesType): TypesType {
+function compare(top: TypesType, bottom: TypesType): TypesType {
   return {
     name: top.name,
     color: top.color,
     position: bottom.position,
     weight: bottom.weight,
-  }
+  };
 }
 
-export { };
+export {};
 
 // const top: TypesType = {
 //   name: 'Top Item',

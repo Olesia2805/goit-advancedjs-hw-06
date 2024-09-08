@@ -19,6 +19,6 @@ type Form = {
 };
 
 // Implement Params in a way that makes it impossible to use the 'errors' field of the Form type
-type Params = Omit<Form, 'error'>;
+type Params = Omit<Form, "error">;
 
 export {};

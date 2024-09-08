@@ -3,18 +3,18 @@
   and returns a boolean value indicating whether it is a weekday or a weekend.
 */
 
-enum Days{
-    Monday = 'WEEKDAY',
-    Tuesday = 'WEEKDAY',
-    Wednesday = 'WEEKDAY',
-    Thursday = 'WEEKDAY',
-    Friday = 'WEEKDAY',
-    Saturday = 'WEEKEND',
-    Sunday = 'WEEKEND',
+enum Days {
+  Monday = "WEEKDAY",
+  Tuesday = "WEEKDAY",
+  Wednesday = "WEEKDAY",
+  Thursday = "WEEKDAY",
+  Friday = "WEEKDAY",
+  Saturday = "WEEKEND",
+  Sunday = "WEEKEND",
 }
 
-function isWeekend(weekStatus: Days): boolean{
-    return weekStatus === 'WEEKEND' ? true : false;    
+function isWeekend(weekStatus: Days): boolean {
+  return weekStatus === "WEEKEND" ? true : false;
 }
 
 console.log(isWeekend(Days.Monday));

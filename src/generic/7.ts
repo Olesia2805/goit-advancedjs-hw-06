@@ -4,18 +4,18 @@
 */
 
 export enum UserRole {
-  admin = 'admin',
-  editor = 'editor',
-  guest = 'guest',
+  admin = "admin",
+  editor = "editor",
+  guest = "guest",
 }
 
-type RoleType = Record<UserRole, string>
+type RoleType = Record<UserRole, string>;
 
 // Replace the following code with the version using Record
 const RoleDescription: RoleType = {
-  [UserRole.admin]: 'Admin User',
-  [UserRole.editor]: 'Editor User',
-  [UserRole.guest]: 'Guest User',
+  [UserRole.admin]: "Admin User",
+  [UserRole.editor]: "Editor User",
+  [UserRole.guest]: "Guest User",
 };
 
 export {};
