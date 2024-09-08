@@ -46,7 +46,7 @@ str = some;
 
 What do you need to fix in this code to make it correct and safe?
 
-### Завдання 4
+### Task 4
 
 You have the following JavaScript array:
 
@@ -56,7 +56,7 @@ let person = ["Max", 21];
 
 How can you rewrite it in TypeScript using the concept of tuples to ensure that the first element is always a string and the second is always a number?
 
-### Завдання 5
+### Task 5
 
 How would you define a variable in TypeScript that can take a string or a number (union type)? And also define a variable that can take only one of two string values: 'enable' or 'disable' (literal type)?
 
@@ -182,7 +182,7 @@ class Page extends Component {
 }
 ```
 
-### Task 5.
+### Task 5
 
 You need to implement the KeyValuePair interface that describes a key-value pair. Use generics so that this interface can work with any type of key and value.
 
